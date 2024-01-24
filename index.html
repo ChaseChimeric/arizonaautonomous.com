@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'> 
+
+  <title>Arizona Autonomous Vehicles</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  </style>
+
+  <!--style overrides for aza colors-->
+  <style>
+  @media only screen and (max-width: 600px) {#mobilesense{padding-top: 12%;padding-bottom: 2%;}}
+  .w3-aza-blue,.w3-hover-aza-blue:hover{color:#fff!important;background-color:#1b1eb4!important}
+  .main-logo{width:50%;padding-top: 1%;}
+  .w3-red,.w3-hover-red:hover{color:#fff!important;background:linear-gradient(to left,#c70000 ,20% ,white,80%, #c70000 )!important}
+  </style>
+
+  <!--markdown parse-->
+  <script>
+    // Configure MathJax settings
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ]
+      }
+    }
+    addEventListener('zero-md-rendered', () => MathJax.typeset())
+  </script>
+  <!-- Load MathJax library -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-aza-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-aza-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-white animate__animated animate__slideInDown"><i class="fa fa-home"></i></a>
+    <a href="/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white animate__animated animate__slideInDown">Home</a>
+    <a href="/Contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white animate__animated animate__slideInDown">Contact Us</a>
+    <a href="/Gallery/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white animate__animated animate__slideInDown">Gallery</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/Contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="/Gallery/index.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center animate__animated animate__fadeIn" style="padding:0px 16px">
+
+  <img id="mobilesense" class="main-logo" src="/aza-logo.svg" alt="AZA logo" >
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <zero-md src="intro.md"></zero-md>
+        <br>
+        <zero-md src="content.md" no-shadow></zero-md>
+    </div>
+
+    <div class="w3-third w3-center animate__animated animate__fadeIn" style="padding-left: 16px; max-width: auto;">
+      <zero-md src="right-col.md"></zero-md>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

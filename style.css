@@ -1,0 +1,4 @@
+.w3-aza-blue,.w3-hover-aza-blue:hover{color:#fff!important;background-color:#292bb3!important}
+.main-logo{width:50%;padding-top: 1%;}
+.w3-red,.w3-hover-red:hover{color:#fff!important;background:linear-gradient(to left,#c70000 ,20% ,white,80%, #c70000 )!important}
+@media only screen and (max-width: 600px) {#mobilesense{padding-top: 12%;padding-bottom: 2%;}}
