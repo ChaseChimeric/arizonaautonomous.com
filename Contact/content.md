@@ -1,22 +1,22 @@
 ## **Who are the E-board officers?**
 
-President: Jimmy Payan 
+President: Ahmad Qureshi
 
-Vice President: Ahmad Qureshi 
+Vice President: Vinyas Bhat
 
-Treasurer: Ahmad Qureshi 
+Treasurer: Alexia
 
-Secretary: Drake Russ 
+Secretary: -
 
-Safety Officer : Lilly G. 
+Safety Officer : Lilly Gentry 
 
 ## **Who are the sub-team leads?**
 
-Avionics Lead : Cole  
+Avionics Lead : Cole Hersh
 
 Hardware Lead : Ryan Fong 
 
-Computer Vision Lead : Alex CC 
+Computer Vision Lead : Jimmy Payan
 
-Systems Lead : Jimmy Payan
+
 
