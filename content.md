@@ -1,4 +1,5 @@
 ## Recent News
+$
 **Update May 4, 2024**
 Had a good semester of progress, just a quick update on the current status of the VTOL.
 1) power systems and basic wiring have been completed
