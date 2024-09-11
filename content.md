@@ -1,6 +1,11 @@
 ## Recent News
-$
+**Update September 10, 2024**
+
+Interested about Arizona autonomous? Come join us at the engineering club fair at Bear Down Gym to learn more about our club! 
+This event runs from *12:30pm - 3:00pm* on the 10th (today) and the 12th. Looking forward to meeting potential new members!
+
 **Update May 4, 2024**
+
 Had a good semester of progress, just a quick update on the current status of the VTOL.
 1) power systems and basic wiring have been completed
 2) pixhawk remote telemetry is up and working at the moment.
@@ -44,4 +49,4 @@ Due to the COVID-19 pandemic, our in-person club operations have been temporaril
   
 However, our club is still active! Please fill out this form [https://forms.gle/KhxWYyTWJ9PZHG1JA]() to join our email list to be informed of updates as we receive them!
 
-<img src="/media/4152971.png" width="200"> <img src="/media/9298123_orig.png" width="200">
+<img src="https://cdn.arizonaautonomous.com/Logos/azengineering.png" width="200"> <img src="https://cdn.arizonaautonomous.com/Logos/uofa.png" width="200">

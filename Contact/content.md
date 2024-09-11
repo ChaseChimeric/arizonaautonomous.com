@@ -4,7 +4,7 @@ President: Ahmad Qureshi
 
 Vice President: Vinyas Bhat
 
-Treasurer: Alexia
+Treasurer: Alexia Segarra
 
 Secretary: -
 
