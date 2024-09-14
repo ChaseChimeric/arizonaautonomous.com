@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv='cache-control' content='no-cache'>
-  <meta http-equiv='expires' content='0'>
-  <meta http-equiv='pragma' content='no-cache'>
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'> 
 
   <title>AZA</title>
 
@@ -15,19 +15,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css">
   <style>
   body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
   .fa-anchor,.fa-coffee {font-size:200px}
-  #gall {
-  max-width: 100%;
-  height: auto;
-  border: 10px solid #666;
-  border-radius: 15px;
-  padding: 15px;
-
-}
   </style>
 
   <!--style overrides for aza colors-->
@@ -54,9 +45,9 @@
   <!-- Load MathJax library -->
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script>
 
 
 </head>
@@ -91,50 +82,34 @@
 <div class="w3-auto" >
 
 
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+<div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
+  data-link="https://photos.app.goo.gl/K8YQCijCxiEjhCPy8"
+  data-title="AZA"
+  data-description="14 new items added to shared album">
 
-
-
-<div id="lightgallery">
-    
-    <a href="https://cdn.arizonaautonomous.com/OtherImg/IMG_1288.jpg">
-		<img id="gall" src="https://cdn.arizonaautonomous.com/Logos/gallery_thumb.jpg">
-    </a>
-<!--IMAGES-->
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20240414_183826220.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/IMG_1664.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/IMG_1639.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_180752950.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_182451926-1.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_182451926.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20240414_184239018.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/img-3673.jpeg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230916_200125231.MP.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230415_211709685.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_193016875.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_183545752.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/PXL_20230408_181723328.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/IMG_9295.jpg"></a>
-<a href="https://cdn.arizonaautonomous.com/OtherImg/IMG_1288.jpg"></a>
-
-<!--ENDIMAGES-->
-
-
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczMsFm03S5fBuTyfR8QidDIc3Ue2UYUCG9gTDWACwPDv1vf4WDGCwxorOaB92KtDUYtw142ETZTq-6uYdYlHMKckj6tMVL_Z4fgQq_RQWIhuyqXvWA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczMtcHtxsBrNoPFkbCofxxmXYruQ8Z0GICm7sXAktUhnV2l9QeYFdPC-AN8RSi5xz7dapL-4vVVUdZipB5qhlejwe3h0da8I-E69fHDzcG8jgrIetw=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPTLBUmQJSlvLJOwubfNKcOxRVaDSIZuefm0TA4JKVNJYk6D2EaxvpVv1M9crljZ15jxki8WGXS6YbjMNcKWmqvWvQkBkgQJpUSx6DLIHxmr8DSGQ=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPQdS3w4yeUppkLF3h8LCCVZgLPtcYwasqDjR-Xff9QTywnm0zN2AKAETxz3VDBQAqzwsqVq26a2kTXMNtsjs6x8FG7iMc10u5EJNKZPocy3_-k9Q=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPhKhssz_B5QEknWpFlj3gTFZ0IzjzIBj8ZP25qBRP8Ox-WO9w9Kp8Q5gqHRDtIoCPhQws0waDGyyaTdVlsCDy9raT1O-9L-OgLxOiBQqHTYRFHtg=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPhNpfh0_2bReaL-pyVijgeFjTnfMVQ0xIzR79u2NQ7KxLP5TErcuwuSs7ks0_LMEEl-roCuncKuYUcPZBHid4FqKa53ouzBOI62p4yNi8EoCxboA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczMoaAInAkY7T2mMeg2TlBkCgCM0hNaa5D_jW8qwIxANm4pbZcJ2k-WCjSv4SLJmV6B_onaF9i0Ip9S2McgZAt99OOKwFo2iXPBdPdpxssFzVqgY1w=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczNnVj7WWNMyyQoooc3GJMBS2_NFd1p20xBWY60Tc-FOxDaV0HLtw2ez6npqpB8nChn9VDLScRUQL8_yAj8UlIU1FmbW4ZinCU4jIwHL4HKRBl8SzA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczOv38RQI575F_tDm9QcbMz8Bvg-D1fcY4nFCYJ28kq0f37zypku1NrMkjGy2fuP7FOQmLNLYtd8KXCNEQUT-0a8EOO-DcvLOuj0Dq6kun9XLKCAWA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPGfYQc7RvLDVyurlpPUpvKnSghHzD8JumEV-EVIZNdga_lZrcarVaTbXF5vNX0UZjqmMYj9Kt_2RXRzJYgowEGiAoJ14mSjVrMgEmm3GA4xSKf4g=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczNB1UEiXly9SnZkdGCxFmxDrEtddyOBd8tecYWXcHE9MKuMinrIR9w0SyLwQqtIo_HmTRxZCkCzP5Cy0Hq0qmLDLIVz4fp-6jYpndTqT1bcHW-_5g=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPE70qPwxUS1lHkpEsfWVcv-31qUqxDrWAavFWL9Qvbp50XODpAimiTQloMSd__3zQnfa6OltduC8hAATPDr9-CnuSdNwOWUchwYKW5sePTvqyI6w=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczNXDH2l0TDyvW6tK_b4FYIGXwfxxUTjLAU7iST9DDZL-LKvdNrTWfRLqC1qbYEvJX-uuBYcvuEaSllwKlkGUksAaDfuD8hTHzwvbFFO9yW_YOgwXw=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPcbPKXWDhcxkLXEW5bwj-7rgq-CcMZ9esG3tuv-7hcRlftgpPEZ2oowWlMTsTlBFhVt_VHF-bOp1AdsLn9tdz1m7L52TRUff_4lpdoGvYuxQfmXQ=w1920-h1080"></object>
 </div>
-
-
-
-<script>
-    lightGallery(document.getElementById('lightgallery'));
-</script>
-
-
-
+<!--ENDIMAGES-->
 </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -152,7 +127,7 @@ function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-  } else {
+  } else { 
     x.className = x.className.replace(" w3-show", "");
   }
 }
@@ -160,11 +135,6 @@ function myFunction() {
 
 </body>
 </html>
-
-
-
-
-
 
 
 

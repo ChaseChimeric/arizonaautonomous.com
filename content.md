@@ -19,7 +19,7 @@ After a day of mixed successfulness at themodel park we now have a list of thing
 This is the first update to the AZA website in 4 years! For awhile we had lost access to the old domain but we've updated the domain and we're back online. Currently we are working on our most recent project which is a VTOL (Vertical takeoff and landing). If you are interested in joining Arizona Autonomous Vehicles the make your way to the [Contact Us](./Contact/) page, and join our Discord. The majority of communication within the club happens there.
 
 
-</br>
+<br>
 <br>
 <br>
 
